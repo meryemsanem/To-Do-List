@@ -125,7 +125,7 @@ This project is not currently deployed.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Use JavaScript classes insead of plain objects**
+- [ ] **Add and remove items and interactive list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
