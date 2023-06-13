@@ -49,8 +49,8 @@ This project is the second project of Module 2 of Microverse Full Stack Program.
 
 ### Key Features <a name="key-features"></a>
 
-- **Add books** The user can add a new to do list.
-- **Add books** The user can remove any of the list items.
+-  The user can add a new to do list.
+-  The user can remove any of the list items.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
