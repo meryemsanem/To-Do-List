@@ -80,8 +80,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd desired-folder
-  git clone https://github.com/meryemsanem/awesome-books.git
+  cd desktop
+  git clone git@github.com:meryemsanem/To-Do-List.git
 ```
 
 ### Install
@@ -89,7 +89,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd awesome-books
+  cd To-Do-List
   npm install
 ```
 
