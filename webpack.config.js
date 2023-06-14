@@ -29,7 +29,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Webpack App',
-      template: 'src/template.html',
+      template: 'src/index.html',
     }),
   ],
 };

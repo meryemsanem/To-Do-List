@@ -5,7 +5,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [Awesome Booklist ](#awesome-booklist-)
+- [To Do List ](#to-do-list)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -26,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Awesome Booklist <a name="about-project"></a>
+# To Do List <a name="about-project"></a>
 
-This project is the first project of Module 2 of Microverse Full Stack Program. It's a simple book list app, where the user can add or remove books.
+This project is the second project of Module 2 of Microverse Full Stack Program. It's a simple to do list.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,9 +49,8 @@ This project is the first project of Module 2 of Microverse Full Stack Program. 
 
 ### Key Features <a name="key-features"></a>
 
-- **Add books** The user can add a new book to the book list.
-- **Add books** The user can remove any of the books they added to the list.
-- **Persistent data** The book list is persistent even when the user refreshed the page.
+-  The user can add a new to do list.
+-  The user can remove any of the list items.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,8 +80,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd desired-folder
-  git clone https://github.com/meryemsanem/awesome-books.git
+  cd desktop
+  git clone git@github.com:meryemsanem/To-Do-List.git
 ```
 
 ### Install
@@ -90,7 +89,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd awesome-books
+  cd To-Do-List
   npm install
 ```
 
@@ -118,13 +117,7 @@ This project is not currently deployed.
 
 - GitHub: [@meryemsanem](https://github.com/meryemsanem)
 - Twitter: [@msanemkckbayram](https://twitter.com/twitterhandle)
-- LinkedIn: [henokkhm](https://linkedin.com/in/linkedinhandle)
-- 
-👤 **Henok K Hailemariam**
-
-- GitHub: [@henokkhm](https://github.com/henokkhm)
-- Twitter: [@henokkhm](https://twitter.com/henokkhm)
-- LinkedIn: [henokkhm](https://www.linkedin.com/in/henokkhm/)
+- LinkedIn: [Meryem Sanem Küçükbayram](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -132,7 +125,7 @@ This project is not currently deployed.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Use JavaScript classes insead of plain objects**
+- [ ] **Add and remove items and interactive list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,7 +151,7 @@ If you like this project, you can contribute to it. You are also welcome to give
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-We would like to thank Microverse for teaching and enforcing professional level practices.
+I would like to thank Microverse for teaching and enforcing professional level practices.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
