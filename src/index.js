@@ -69,7 +69,6 @@ function addTrash(event) {
   textElem.setAttribute('contenteditable', true);
   textElem.focus();
   const trash = document.getElementsByClassName('newButton');
-
   trash[0].addEventListener('click', deleteList);
 }
 
