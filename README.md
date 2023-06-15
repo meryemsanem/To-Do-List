@@ -51,9 +51,6 @@
 - The user can add a new to do list.
 - The user can remove any of the list items.
 
--  The user can add a new to do list.
--  The user can remove any of the list items.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -86,8 +83,6 @@ Install this project with:
 
 ```sh
 
-  cd to-do-list
-
   cd To-Do-List
 
   npm install
@@ -115,15 +110,6 @@ To run the linters, run `npx hint .` and `npx stylelint "**/*.{css,scss}"` or `n
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Add and remove items and interactive list**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
