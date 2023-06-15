@@ -26,7 +26,7 @@
 
 # To Do List <a name="about-project"></a>
 
-This project is the second project of Module 2 of Microverse Full Stack Program. It's a simple to do list.
+- To-do list" is a tool that helps to organize your day, built with HTML, CSS, JavaScript. With its management features, you can add, mark as completed, remove and make changes to tasks.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -53,15 +53,6 @@ This project is the second project of Module 2 of Microverse Full Stack Program.
 
 -  The user can add a new to do list.
 -  The user can remove any of the list items.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-👉 Coming soon
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
