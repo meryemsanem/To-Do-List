@@ -76,8 +76,6 @@ Clone this repository to your desired folder:
 ```sh
   cd desktop
 
-  git clone https://github.com/meryemsanem/to-do-list.git
-
   git clone git@github.com:meryemsanem/To-Do-List.git
 
 ```
