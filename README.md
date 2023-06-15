@@ -47,8 +47,21 @@ This project is the second project of Module 2 of Microverse Full Stack Program.
 
 ### Key Features <a name="key-features"></a>
 
+
 - The user can add a new to do list.
 - The user can remove any of the list items.
+
+-  The user can add a new to do list.
+-  The user can remove any of the list items.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+👉 Coming soon
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -71,7 +84,11 @@ Clone this repository to your desired folder:
 
 ```sh
   cd desktop
+
   git clone https://github.com/meryemsanem/to-do-list.git
+
+  git clone git@github.com:meryemsanem/To-Do-List.git
+
 ```
 
 ### Install
@@ -79,7 +96,11 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
+
   cd to-do-list
+
+  cd To-Do-List
+
   npm install
 ```
 
@@ -102,6 +123,16 @@ To run the linters, run `npx hint .` and `npx stylelint "**/*.{css,scss}"` or `n
 - GitHub: [@meryemsanem](https://github.com/meryemsanem)
 - Twitter: [@msanemkckbayram](https://twitter.com/twitterhandle)
 - LinkedIn: [Meryem Sanem Küçükbayram](https://linkedin.com/in/linkedinhandle)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Add and remove items and interactive list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
