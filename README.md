@@ -85,9 +85,7 @@ Install this project with:
 
 ### Usage
 
-To run the project, open the HTML file in your browser.
-
-To run the write terminal npm run dev.
+To run the project write terminal npm run dev.
 
 ### Run tests
 
