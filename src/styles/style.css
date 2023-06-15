@@ -119,3 +119,7 @@ input[type='text']:focus::placeholder {
 .newButton:hover {
   font-size: 25px;
 }
+
+.checkbox:checked {
+  margin-left: 5px;
+}

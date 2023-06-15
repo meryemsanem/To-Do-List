@@ -44,13 +44,3 @@ const deleteBtn = document.querySelectorAll('.list-item');
 deleteBtn.forEach((button) => {
   button.addEventListener('click', addTrash);
 });
-
-// const editTask = document.querySelector('.li-p');
-// editTask.forEach((edit, index) => {
-//   edit.addEventListener('change', () => {
-//     if (edit.value) {
-//       tasks[i].description = edit.value;
-//       localStorage.setItem('tasks', JSON.stringify(tasks));
-//     }
-//   });
-// });
