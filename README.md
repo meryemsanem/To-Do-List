@@ -9,14 +9,12 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
-    - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -49,16 +47,8 @@ This project is the second project of Module 2 of Microverse Full Stack Program.
 
 ### Key Features <a name="key-features"></a>
 
-- **Add books** The user can add a new to do list.
-- **Add books** The user can remove any of the list items.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-👉 Coming soon
+- The user can add a new to do list.
+- The user can remove any of the list items.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,8 +70,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  cd desired-folder
-  git clone https://github.com/meryemsanem/awesome-books.git
+  cd desktop
+  git clone https://github.com/meryemsanem/to-do-list.git
 ```
 
 ### Install
@@ -89,7 +79,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd awesome-books
+  cd to-do-list
   npm install
 ```
 
@@ -97,15 +87,11 @@ Install this project with:
 
 To run the project, open the HTML file in your browser.
 
-To run the linters, run `npx hint .` and `npx stylelint "**/*.{css,scss}"` or `npx eslint .` from the root directory of the project.
+To run the write terminal npm run dev.
 
 ### Run tests
 
-There are currently no tests in this project.
-
-### Deployment
-
-This project is not currently deployed.
+To run the linters, run `npx hint .` and `npx stylelint "**/*.{css,scss}"` or `npx eslint .` from the root directory of the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,14 +104,6 @@ This project is not currently deployed.
 - GitHub: [@meryemsanem](https://github.com/meryemsanem)
 - Twitter: [@msanemkckbayram](https://twitter.com/twitterhandle)
 - LinkedIn: [Meryem Sanem Küçükbayram](https://linkedin.com/in/linkedinhandle)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Use JavaScript classes insead of plain objects**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
