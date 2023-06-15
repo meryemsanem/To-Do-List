@@ -1,42 +1,46 @@
 import './styles/style.css';
+import addTrash from './modules/function.js';
 
-const tasks = [
-  {
-    description: 'wash the dishes',
-    completed: false,
-    index: 0,
-  },
-  {
-    description: 'complete To Do List project',
-    completed: false,
-    index: 1,
-  },
-  {
-    description: 'fix car',
-    completed: false,
-    index: 2,
-  },
-  {
-    description: 'go shopping',
-    completed: false,
-    index: 3,
-  },
-];
+const input = document.getElementById('input');
 
-const showTasks = () => {
-  const list = document.querySelector('.list');
-  for (let i = 0; i < tasks.length; i += 1) {
-    const listItems = document.createElement('div');
-    listItems.classList.add('to-do--');
-    listItems.innerHTML = `<div class="lists">
-    <input type="checkbox">
-    ${tasks[i].description} 
-  </div><div>
-    <i class="fa-solid fa-ellipsis-vertical"></i>
-    </div>
-  `;
-    list.appendChild(listItems);
+const target = document.getElementById('list');
+
+let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+
+function saveToLocalStorage(data) {
+  tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+  tasks.push(data);
+  localStorage.setItem('tasks', JSON.stringify(tasks));
+}
+
+input.addEventListener('keyup', (event) => {
+  if (event.key === 'Enter') {
+    const inputValue = input.value;
+    const newObj = {
+      description: inputValue,
+      completed: false,
+      index: tasks.length + 1,
+    };
+    saveToLocalStorage(newObj);
+    window.location.reload();
+    input.value = '';
   }
-};
+});
 
-showTasks();
+for (let i = 0; i < tasks.length; i += 1) {
+  const { index, description } = tasks[i];
+  target.innerHTML += `
+      <li id="L${index}" class ="common">
+      <input for ="P${index}" id="input" type="checkbox" class ="checkbox">
+      <p id ="P${index}" class="li-p">${description}</p>
+      <button id="edit-remove${index}"  class="btn dots list-item">
+       <i class="fa fa-ellipsis-v"></i>
+      </button>
+      </li>
+    `;
+}
+
+const deleteBtn = document.querySelectorAll('.list-item');
+deleteBtn.forEach((button) => {
+  button.addEventListener('click', addTrash);
+});
