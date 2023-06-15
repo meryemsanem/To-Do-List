@@ -28,9 +28,20 @@ export default function addTrash(event) {
   newBtn.innerHTML = '<i class="fa fa-trash-alt"></i>';
   parentElement.append(newBtn);
   liItem.style.backgroundColor = '#ffe6ee';
-  const textElem = liItem.querySelector('p');
-  textElem.setAttribute('contenteditable', true);
-  textElem.focus();
+  const editTask = liItem.querySelector('p');
+  editTask.setAttribute('contenteditable', true);
+  // editTask.focus();
+  const listId = parentLi.getAttribute('id');
+  const index = parseInt(listId.substring(1), 10);
+  editTask.addEventListener('keyup', () => {
+    const newTasks = tasks.map((task) => {
+      if (task.index === index) {
+        return { ...task, description: editTask.innerHTML };
+      }
+      return task;
+    });
+    localStorage.setItem('tasks', JSON.stringify(newTasks));
+  });
   const trash = document.getElementsByClassName('newButton');
   trash[0].addEventListener('click', deleteList);
 }
