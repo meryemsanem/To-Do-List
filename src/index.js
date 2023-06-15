@@ -27,11 +27,12 @@ input.addEventListener('keyup', (event) => {
 });
 
 for (let i = 0; i < tasks.length; i += 1) {
+  const { index, description } = tasks[i];
   target.innerHTML += `
-      <li id="L${i}" class ="common">
-      <input for ="P${i}" id="input" type="checkbox" class ="checkbox">
-      <p id ="P${i}" class="li-p">${tasks[i].description}</p>
-      <button id="edit-remove${i}"  class="btn dots list-item">
+      <li id="L${index}" class ="common">
+      <input for ="P${index}" id="input" type="checkbox" class ="checkbox">
+      <p id ="P${index}" class="li-p">${description}</p>
+      <button id="edit-remove${index}"  class="btn dots list-item">
        <i class="fa fa-ellipsis-v"></i>
       </button>
       </li>
@@ -44,7 +45,8 @@ function deleteList() {
   const liItem = element.parentNode;
   liItem.removeChild(element);
   const listId = element.getAttribute('id');
-  tasks.splice(listId, 1);
+  const index = parseInt(listId.substring(1), 10);
+  tasks = tasks.filter((task) => task.index !== index);
   for (let i = 0; i < tasks.length; i += 1) {
     tasks[i].index = i + 1;
   }
