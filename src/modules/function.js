@@ -30,7 +30,6 @@ export default function addTrash(event) {
   liItem.style.backgroundColor = '#ffe6ee';
   const editTask = liItem.querySelector('p');
   editTask.setAttribute('contenteditable', true);
-  // editTask.focus();
   const listId = parentLi.getAttribute('id');
   const index = parseInt(listId.substring(1), 10);
   editTask.addEventListener('keyup', () => {
