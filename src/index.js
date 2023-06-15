@@ -1,11 +1,11 @@
 import './styles/style.css';
-import addTrash from './modules/function';
+import addTrash from './modules/function.js';
 
 const input = document.getElementById('input');
 
 const target = document.getElementById('list');
 
-export let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+let tasks = JSON.parse(localStorage.getItem('tasks')) || [];
 
 function saveToLocalStorage(data) {
   tasks = JSON.parse(localStorage.getItem('tasks')) || [];
@@ -44,3 +44,13 @@ const deleteBtn = document.querySelectorAll('.list-item');
 deleteBtn.forEach((button) => {
   button.addEventListener('click', addTrash);
 });
+
+// const editTask = document.querySelector('.li-p');
+// editTask.forEach((edit, index) => {
+//   edit.addEventListener('change', () => {
+//     if (edit.value) {
+//       tasks[i].description = edit.value;
+//       localStorage.setItem('tasks', JSON.stringify(tasks));
+//     }
+//   });
+// });
