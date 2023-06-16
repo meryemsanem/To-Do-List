@@ -5,10 +5,11 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [To Do List ](#to-do-list)
+- [To Do List ](#about-project)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+    - [Live Demo](#live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -47,9 +48,16 @@
 
 ### Key Features <a name="key-features"></a>
 
-
 - The user can add a new to do list.
 - The user can remove any of the list items.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- The link to my online portfolio [Live Demo Link](https://meryemsanem.github.io/To-Do-List/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,7 +117,6 @@ To run the linters, run `npx hint .` and `npx stylelint "**/*.{css,scss}"` or `n
 - LinkedIn: [Meryem Sanem Küçükbayram](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- CONTRIBUTING -->
 
