@@ -9,14 +9,12 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
     - [Run tests](#run-tests)
-    - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -28,7 +26,7 @@
 
 # To Do List <a name="about-project"></a>
 
-This project is the second project of Module 2 of Microverse Full Stack Program. It's a simple to do list.
+- To-do list" is a tool that helps to organize your day, built with HTML, CSS, JavaScript. With its management features, you can add, mark as completed, remove and make changes to tasks.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,16 +47,9 @@ This project is the second project of Module 2 of Microverse Full Stack Program.
 
 ### Key Features <a name="key-features"></a>
 
--  The user can add a new to do list.
--  The user can remove any of the list items.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-👉 Coming soon
+- The user can add a new to do list.
+- The user can remove any of the list items.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,7 +72,9 @@ Clone this repository to your desired folder:
 
 ```sh
   cd desktop
+
   git clone git@github.com:meryemsanem/To-Do-List.git
+
 ```
 
 ### Install
@@ -89,23 +82,19 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
+
   cd To-Do-List
+
   npm install
 ```
 
 ### Usage
 
-To run the project, open the HTML file in your browser.
-
-To run the linters, run `npx hint .` and `npx stylelint "**/*.{css,scss}"` or `npx eslint .` from the root directory of the project.
+To run the project write terminal npm run dev.
 
 ### Run tests
 
-There are currently no tests in this project.
-
-### Deployment
-
-This project is not currently deployed.
+To run the linters, run `npx hint .` and `npx stylelint "**/*.{css,scss}"` or `npx eslint .` from the root directory of the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,13 +110,6 @@ This project is not currently deployed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Add and remove items and interactive list**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
