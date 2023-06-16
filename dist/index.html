@@ -8,30 +8,32 @@
       crossorigin="anonymous"
     ></script>
     <title>To Do List</title>
+    <link rel="stylesheet" type=text/html href="./styles/style.css" />
   <script defer src="bundle.js"></script></head>
-  <body>
-    <section class="to-do-list">
-      <div class="list-container">
-        <div class="to-do">
-          <h1 class="today">Today's To Do</h1>
-          <i class="fa-sharp fa-solid fa-rotate"></i>
-        </div>
-        <hr class="line" />
-        <form action="" class="form">
-          <input type="checkbox" class="completed" />
-          <input
-            type="text"
-            class="placeholder"
-            id="placeholder"
-            placeholder="Add to your list..."
-          />
-          <i class="fa-solid fa-arrow-turn-down fa-rotate-90"></i>
-        </form>
 
-        <hr class="line1" />
-        <ul class="list"></ul>
-        <button class="btn" id="btn">Clear all completed</button>
+  <body>
+    <main id="container" class="container">
+      <div class="common">
+        <p class="p">Today's To Do</p>
+        <button class="btn first">
+          <i class="fa-sharp fa-solid fa-rotate"></i>
+        </button>
       </div>
-    </section>
+      <div class="common">
+        <input
+          id="input"
+          type="text"
+          class="textInput"
+          placeholder="Add to your list..."
+        />
+        <button class="btn second">
+          <i class="fa-solid fa-arrow-turn-down fa-rotate-90"></i>
+        </button>
+      </div>
+      <ul id="list"></ul>
+      <button class="btnComplete">
+        <p>Clear all completed</p>
+      </button>
+    </main>
   </body>
 </html>
