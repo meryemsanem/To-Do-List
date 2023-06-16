@@ -57,7 +57,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- The link to my online portfolio [Live Demo Link](https://meryemsanem.github.io/To-Do-List/dist/)
+- The link for To Do List project [Live Demo Link](https://meryemsanem.github.io/To-Do-List/dist/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
