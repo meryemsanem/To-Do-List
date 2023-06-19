@@ -1,5 +1,6 @@
 import './styles/style.css';
 import addTrash from './modules/function.js';
+import { refresh } from './modules/refreshPage';
 
 const clearButton = document.querySelector('.btnComplete');
 
@@ -34,8 +35,8 @@ for (let i = 0; i < tasks.length; i += 1) {
   target.innerHTML += `
       <li id="L${index}" class ="common">
       <input for ="P${index}" id="${index}" type="checkbox" ${
-  completed && 'checked'
-}  class ="checkbox">
+    completed && 'checked'
+  }  class ="checkbox">
       <p id ="P${index}" class="li-p">${description}</p>
       <button id="edit-remove${index}"  class="btn dots list-item">
        <i class="fa fa-ellipsis-v"></i>
@@ -54,7 +55,7 @@ checkboxs.forEach((el) => {
   el.addEventListener('click', () => {
     const list = JSON.parse(localStorage.getItem('tasks'));
     const findIndex = list.findIndex(
-      (listEl) => listEl.index.toString() === el.id.toString(),
+      (listEl) => listEl.index.toString() === el.id.toString()
     );
 
     list[findIndex].completed = !list[findIndex].completed;
